@@ -1,0 +1,19 @@
+{
+  "name": "bpsc4-worker",
+  "version": "4.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mime-types": "^2.1.35",
+    "playwright": "^1.53.0",
+    "playwright-cluster": "^1.0.2",
+    "slugify": "^1.6.6",
+    "uuid": "^11.1.0"
+  }
+}
