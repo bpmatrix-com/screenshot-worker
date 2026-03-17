@@ -1,0 +1,14 @@
+{
+  "name": "screenshot-worker",
+  "version": "4.4.0",
+  "description": "Full-site screenshot worker with Playwright, page discovery, anti-bot detection, and ZIP output",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "express": "^4.19.2",
+    "playwright": "^1.52.0"
+  }
+}
