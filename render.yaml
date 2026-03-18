@@ -1,4 +1,0 @@
-services:
-  - type: web
-    name: screenshot-worker
-    env: docker
