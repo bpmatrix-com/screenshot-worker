@@ -1,0 +1,13 @@
+{
+  "name": "bssp-v53-worker",
+  "version": "5.3.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.21.2",
+    "playwright": "1.58.2"
+  }
+}
